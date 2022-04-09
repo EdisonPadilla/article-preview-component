@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+:root {
+  /* ## Colors */
+
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: var(--light-grayish-blue);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+  color: var(--desaturated-dark-blue);
+  font-weight: 500;
+}
+
+.card-container {
+  width: 85%;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.header-img {
+  width: 100%;
+  /* border-radius: 12px 12px 0 0; */
+}
+
+.content1-box {
+  padding: 20px 5% 13px 5%;
+}
+
+.content1-box .title {
+  margin-top: 0;
+  font-size: 16px;
+  color: var(--very-dark-grayish-blue);
+  font-weight: 700;
+}
+
+.content1-box .paragraph {
+  margin-bottom: 0;
+}
+
+.user-container {
+  padding: 16px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: lightgray; */
+}
+
+.avatar-data-user {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  margin-right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-data p {
+  margin: 0;
+}
+
+.user-data .username {
+  color: var(--very-dark-grayish-blue);
+  font-weight: 700;
+}
+
+.user-data .date {
+  color: var(--grayish-blue);
+}
+
+.share-btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--light-grayish-blue);
+}
+
+.share-btn i {
+  color: var(--desaturated-dark-blue);
+}
+
+.share-container {
+  padding: 16px 5%;
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.social-links-box {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--grayish-blue);
+}
+
+.share-container .text {
+  /* margin-right: 8px; */
+}
+
+.social-link {
+  color: white;
+}
+
+.social-link i {
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    width: 660px;
+    display: flex;
+  }
+
+  .header-img {
+    width: 260px;
+    /* border-radius: 12px 12px 0 0; */
+  }
+
+  .content1-box {
+    padding-top: 28px;
+  }
+
+  .user-container {
+    padding-bottom: 28px;
+  }
+}
