@@ -24,14 +24,14 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots-solutions/screenshot-desktop-solution.PNG)
-![](./screenshots-solutions/screenshot-desktop2-solution.PNG)
+![](./screenshots-solutions/screenshot2-desktop-solution.PNG)
 ![](./screenshots-solutions/screenshot-mobile-solution.PNG)
-![](./screenshots-solutions/screenshot-mobile2-solution.PNG)
+![](./screenshots-solutions/screenshot2-mobile-solution.PNG)
 
 ### Links
 
 - Solution URL: [solution repository](https://github.com/EdisonPadilla/article-preview-component.git)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://edisonpadilla.github.io/article-preview-component/)
 
 ## My process
 
